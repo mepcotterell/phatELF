@@ -1,6 +1,7 @@
 /**
  * phatELF.cpp
- * @author Michael Cotterell (2423)
+ * @author Michael Cotterell <mepcotterell@gmail.com>
+ * @see LICENSE
  */
 
 #include <iostream>

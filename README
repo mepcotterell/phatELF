@@ -1,9 +1,11 @@
 phatELF
-Usage: phatELF.sh {infile} {outfile}
 
-AUTHOR
+	@author Michael Cotterell <mepcotterell@gmail.com>
+	@see    LICENSE
 
-	Michael Cotterell (2423)
+USAGE
+
+	./phatELF.sh {infile} {outfile}
 
 BUILD INSTRUCTIONS
 
@@ -19,11 +21,6 @@ DESCRIPTION
 	digit uid 2423!
 
 	Hope you enjoy this approach! 
-
-FILES
-
-	./phatELF.sh
-	./phatELF.cpp
 
 REQUIREMENTS
 

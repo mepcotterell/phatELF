@@ -1,12 +1,8 @@
 #!/bin/bash
 
 # phatELF.sh
-# @author Michael Cotterell
-#
-# I understand that this was not the approach you were looking for, but I would
-# like to defend my code by stating that it does fulfill the project description.
-#
-# Enjoy!
+# @author Michael Cotterell <mepcotterell@gmail.com>
+# @see LICENSE
 
 if [ $# -ne 2 ]
 then
