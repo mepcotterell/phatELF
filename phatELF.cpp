@@ -12,6 +12,9 @@ using namespace std;
 
 int main(int argc, char **argv, char **env) {
 
+	/**
+	 * Theoretically, you could replace the following printf call with a malicious routine... ;)
+	 */
 	printf("2423\n");
 
 	char cmdbuf[1024];
