@@ -1,0 +1,36 @@
+phatELF
+Usage: phatELF.sh {infile} {outfile}
+
+AUTHOR
+
+	Michael Cotterell (2423)
+
+BUILD INSTRUCTIONS
+
+	There is no code to compile in order to run the script! All C++ code 
+	is compiled at run-time. Simply run the phatELF.sh file with the 
+	correct CLI arguments.
+
+DESCRIPTION
+
+	The approach I took was to copy the infile into an ELF section of the
+	outfile so that the outfile could retrieve and execute it. In addition
+	to executing the stored executable, the outfile also prints my four-
+	digit uid 2423!
+
+	Hope you enjoy this approach! 
+
+FILES
+
+	./phatELF.sh
+	./phatELF.cpp
+
+REQUIREMENTS
+
+	- awk
+	- bash
+	- binutils
+	- dd
+	- g++
+	- grep
+
