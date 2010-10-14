@@ -3,6 +3,16 @@ phatELF
 	@author Michael Cotterell <mepcotterell@gmail.com>
 	@see    LICENSE
 
+	ELF Padding with Executable Code! The concept is pretty simple, the 
+	included script hides some executable in the newly created .phat ELF 
+	section of another executable which is built durring script execution.
+	The resulting executable runs some routine (in this case, a simple call
+	to printf()), extracts the contents of the .phat ELF section, and 
+	executes the extracted code.
+
+	To put it simply, the resulting file should run this extra routine then
+	behave exactly the same as the input file.
+
 USAGE
 
 	./phatELF.sh {infile} {outfile}
