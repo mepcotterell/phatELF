@@ -3,6 +3,8 @@ phatELF
 	@author Michael Cotterell <mepcotterell@gmail.com>
 	@see    LICENSE
 
+DESCRIPTION
+
 	ELF Padding with Executable Code! The concept is pretty simple, the 
 	included script hides some executable in the newly created .phat ELF 
 	section of another executable which is built durring script execution.
@@ -13,8 +15,11 @@ phatELF
 	To put it simply, the resulting file should run this extra routine then
 	behave exactly the same as the input file.
 
+LINKS
+
 	@home	http://michaelcotterell.com/research/phatelf/
 	@github	http://github.com/mepcotterell/phatELF
+	@issue	http://phattangent.lighthouseapp.com/projects/62005-phatelf/
 
 USAGE
 
@@ -25,15 +30,6 @@ BUILD INSTRUCTIONS
 	There is no code to compile in order to run the script! All C++ code 
 	is compiled at run-time. Simply run the phatELF.sh file with the 
 	correct CLI arguments.
-
-DESCRIPTION
-
-	The approach I took was to copy the infile into an ELF section of the
-	outfile so that the outfile could retrieve and execute it. In addition
-	to executing the stored executable, the outfile also prints my four-
-	digit uid 2423!
-
-	Hope you enjoy this approach! 
 
 REQUIREMENTS
 
