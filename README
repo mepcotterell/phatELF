@@ -13,6 +13,9 @@ phatELF
 	To put it simply, the resulting file should run this extra routine then
 	behave exactly the same as the input file.
 
+	@home	http://michaelcotterell.com/research/phatelf/
+	@github	http://github.com/mepcotterell/phatELF
+
 USAGE
 
 	./phatELF.sh {infile} {outfile}
