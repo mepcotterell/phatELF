@@ -18,5 +18,5 @@ echo " - Performing I N C E P T I O N..."
 objcopy --add-section .phat=$1 $2
 echo " - Cleaning up..."
 # anything?
-echo "Done."
+echo " - Done."
 
